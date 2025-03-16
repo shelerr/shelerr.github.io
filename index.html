@@ -3,10 +3,14 @@
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
-<form action="https://fabform.io/f/Qvw89sb" method="post">
- <label for="email">Your Email</label>
- <input name="email" type="email">
- <button type="submit">Submit</button> 
+<form action="https://api.staticforms.xyz/submit" method="post">
+    <input type="text" name="email" placeholder="Your Email" />
+    <textarea name="message"></textarea>
+    <input type="text" name="honeypot" style="display:none">
+    <input type="hidden" name="accessKey" value=" 8ef8d249-816e-4c26-b6b5-fcd1911eeec6">
+    <input type="hidden" name="subject" value="EMAIL_LIST_SUBMISSION" />
+    <input type="hidden" name="replyTo" value="@">
+    <input type="submit" value="Submit" />
 </form>
 </body>
 </html>
